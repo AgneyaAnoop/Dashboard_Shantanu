@@ -1,3 +1,6 @@
+import matplotlib
+matplotlib.use('Agg')  # Must be before importing pyplot - forces non-interactive backend
+
 import streamlit as st
 import io
 from PIL import Image
